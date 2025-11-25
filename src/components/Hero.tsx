@@ -5,10 +5,9 @@ export default function Hero() {
     <section
       className="relative py-80 overflow-hidden"
       style={{
-        backgroundImage: 'https://ik.imagekit.io/candy28/3d-printing-geometric-shape.jpg',
+        backgroundImage: "url('https://ik.imagekit.io/candy28/3d-printing-geometric-shape.jpg')",
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
+        backgroundPosition: 'center'
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/60" />
